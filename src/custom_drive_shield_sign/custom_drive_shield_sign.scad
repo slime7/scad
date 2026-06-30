@@ -9,6 +9,10 @@ lower_text_line_2 = "必驾";
 font_name = "Microsoft YaHei:style=Bold";
 top_text_size = 16; // [10:0.5:20]
 lower_text_size = 20; // [16:0.5:24]
+// 金色主牌底板的厚度，单位毫米。
+model_thickness = 2.0; // [1:0.2:5]
+// 上方文字和下方文字的凸起厚度，单位毫米。
+text_thickness = 0.8; // [0.2:0.1:2]
 
 /* [Hidden] */
 part = "all";
@@ -17,9 +21,8 @@ $fn = 100;
 sign_width = 96;
 rectangle_height = 100;
 triangle_height_ratio = 0.44;
-base_thickness = 2.0;
+base_thickness = model_thickness;
 lower_panel_thickness = 0.7;
-text_thickness = 0.8;
 outer_corner_radius = 5;
 border_width = 5.2;
 lower_panel_width = 84;
